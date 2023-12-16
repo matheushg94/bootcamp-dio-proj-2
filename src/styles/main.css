@@ -1,0 +1,67 @@
+@import url("./variables.css");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--pink);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 2rem;
+    background: linear-gradient(325deg, #03001e 0%, #7303c0 30%, #ec38bc 70%, #fdeff9 100%);
+    padding: 3rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #0000007e;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.reset {
+    padding: 1rem 1.5rem;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reset:hover {
+    color: var(--pink);
+    background-color: #000;
+}
+
+.game {
+    width: 430px;
+    height: 430px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
