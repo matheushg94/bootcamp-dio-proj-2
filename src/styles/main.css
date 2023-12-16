@@ -56,7 +56,7 @@ h2 {
     perspective: 500px;
 }
 
-.item {
+.card {
     position: relative;
     width: 100px;
     height: 100px;
